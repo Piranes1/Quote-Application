@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 5px;
+}
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: darkslateblue;
+    background-color: rgba(204, 236, 87, 0.712);
+    border: 4px rgb(12, 12, 12);
+    border-style: solid;
+    border-radius: 8px;
+    font-size: 36px;
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 0 1px #050505, 0 0 1px #21faef;
+    color: green;
+    font-size: 28px;
+    text-align: center;
+}
+h3 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+input[type="text"]{
+    background-color: rgb(204, 236, 87, 0.712);
+    border: solid rgb(10, 10, 10) 3px;
+    text-align: centre;
+    font-weight: bold;
+    padding: 15px 30px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+}
+#numberOfRooms {
+background-color: rgb(204, 236, 87, 0.712);
+font-weight: bold;
+border: solid rgb(10, 10, 10) 3px;
+border-radius: 8px;
+}  /* Select Control */
+
+#subject {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 16px 0 16px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 14px;
+    background-color: rgb(204, 236, 87, 0.712);
+    font-size: 16px;
+    font-style: italic;
+    resize: none;
+} /* Text area */
+
+input[type="submit"] {
+    background-color: rgb(204, 236, 87, 0.712);
+    border: solid black 3px;
+    color: darkslateblue;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: centre;
+    padding: 30px 64px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button[type="button"]{
+    background-color: green;
+    border: none;
+    color: white;
+    text-align: centre;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: solid black 3px;
+}

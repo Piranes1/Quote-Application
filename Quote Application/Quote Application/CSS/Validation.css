@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+#heading {
+    margin: auto;
+    max-width: 200px;
+    border: 4px rgb(255, 255, 255);
+    font-weight: bold;
+    border-style: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(255, 255, 255);
+    background-color:rgb(3, 16, 138);
+    border-radius: 8px;
+    align-content: center;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(87, 151, 14);
+    margin: auto;
+    
+}
+.form-group {
+    color: white;
+    font-weight: 1000;
+    background-color: rgb(3, 16, 138);
+    max-width: 400px;
+    margin: auto;
+    border: 2px rgb(255, 255, 255);
+    border-style: dashed;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    font-size: large;
+    text-shadow: 0 0 3px #050505, 0 0 5px #000000;
+    color: rgb(255, 255, 255);
+}
+p{
+font-size: large;
+color: rgb(255, 255, 255);
+font-weight: bold;
+text-shadow: 0 0 3px #050505, 0 0 5px #000000;
+}
+.form-group input {
+    border-style:solid white;
+    border-radius: 4px;
+    font-size: 16px;
+    text-shadow: 0 0 3px #050505, 0 0 5px #000000;
+    color: white;
+    padding: 5px;
+    background-color: rgba(59, 159, 206, 0.589);
+}
+input[type="submit"] {
+    background-color: rgb(3, 16, 138);
+    border: solid white 3px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 3px #050505, 0 0 5px #000000;
+    text-align: centre;
+    padding: 30px 64px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}

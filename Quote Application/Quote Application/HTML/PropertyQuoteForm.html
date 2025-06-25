@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Quote Application</title>
+    <link rel="stylesheet" href="../CSS/PropertyCSS.css">
+    <script src="../Javascript/PropertyQuoteForm.js"></script>
+</head>
+
+<body>
+    <h1 id="biggesttitle">Property Insurance Quote Application</h1>
+    <h2 id="bigtitle">GDC Insurance Limited</h2>
+    <h3 id="smalltitle">Jaime Turbett</h3>
+    <form action="" method="POST">
+        <p>
+            Property insurance is a contractual agreement between the insurer and the insured. The
+            insured makes premium payments to the insurance company each month or year. In return,
+            the insurance company agrees to protect the customer from financial loss in the case of
+            damage to the customer’s property. If you have a question call us on <strong>0888 888 8888</strong>
+            for more information.
+        </p>
+        <br>
+        <div id="sectionOne" name="sectionOne">
+            <span id="label1">
+                <label for="propertyLocation">
+                    In which city or town is the property located
+                </label>
+            </span>
+            <span>
+                <input type="text" name="propertyLocation" id="propertyLocation"> </span>
+            </span>
+        </div>
+        <br>
+        <div id="sectionTwo" name="sectionTwo">
+            <span id="label2">
+                <label for="ageOfProperty">
+                    Property Age (in years)
+                </label>
+            </span>
+            <span>
+                <input type="number" name="ageOfProperty" id="ageOfProperty" value="">
+            </span>
+        </div>
+        <br>
+        <div id="sectionThree" name="sectionThree">
+            <span id="label3">
+                <label for="registeredDate">
+                    On what date should the insurance cover begin
+                </label>
+            </span>
+            <span>
+                <input type="date" name="registeredDate" id="registeredDate" min="2023-11-23">
+            </span>
+        </div>
+        <br>
+        <div id="sectionFour" name="sectionFour">
+            <span id="label4">
+                <label for="numberOfRooms">
+                    How many rooms does the property have
+                </label>
+            </span>
+            <span>
+                <select name="numberOfRooms" id="numberOfRooms">
+                    <option value='' Selected>Please Select A Size</option>
+                    <option value='1'>1 </option>
+                    <option value='2'>2 </option>
+                    <option value='3'>3 </option>
+                    <option value='4'>4 </option>
+                    <option value='5'>5 </option>
+                    <option value='6'>6 </option>
+                    <option value='other'>Other </option>
+                </select>
+            </span>
+        </div>
+        <br>
+        <br>
+        <div id="sectionFive" name="sectionFive">
+            <fieldset>
+                <legend>Is the property within 50 metres of a river?</legend>
+                <div>
+                    <input name="standardSpecification" type="radio" id="standardSpecificationY" value="true">
+                    <label for="standardSpecificationY">Yes</label>
+                </div>
+                <div>
+                    <input name="standardSpecification" type="radio" id="standardSpecificationN" value="false">
+                    <label for="standardSpecificationN">No</label>
+                </div>
+            </fieldset>
+        </div>
+        <div id="sectionSix" name="sectionSix">
+            <h4>Select the insurance extras you require</h4>
+            <div>
+                <input type="checkbox" id="personalLaptop" name="personalLaptop" value="Personal laptop">
+                <label for="personalLaptop">Personal laptop</label><br>
+                <input type="checkbox" id="breakdowncover" name="breakdowncover" value="Breakdown cover">
+                <label for="breakdowncover">Add breakdown cover</label><br>
+            </div>
+        </div>
+        <br>
+        <div id="sectionSeven" name="sectionSeven">
+            <textarea id="subject" name="subject" placeholder="Please add any extra information here"></textarea>
+        </div>
+        <br>
+        <div id="sectionEight" name="sectionEight">
+            <input type="submit" value="Submit details">
+            <button type="button" class="contact" id="validateuserdetails" onclick="validateForm()">Validate Form Data
+        </div>
+    </form>
+</body>
+
+</html>

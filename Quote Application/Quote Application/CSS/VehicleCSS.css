@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkslateblue;
+    padding: 36px;
+    font-size: large;
+    background-color: aqua;
+}
+#minorTitle{
+    color: red;
+}
+.companyArea{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+}
+.companyTitle{
+    text-align: center;
+    background-color: yellow;
+    padding: 16px;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    border: none;
+    font-size: 16px;
+    height: auto;
+    padding: 5px;
+    background-color: bisque;
+    color: red;
+}
+#regDate{
+    padding: 10px 0px 18px 0px;
+}
+#engineCC{
+    font-size: 16px;
+    background-color: bisque;
+    cursor: pointer;
+    color: red;
+    padding: 6px;
+}
+input[type="checkbox"], 
+input[type="radio"]{
+    accent-color: red;
+    width: 27px;
+    height: 17px;
+    cursor: pointer;
+}
+/* Text area */
+#subject{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 16px 0 16px 0;
+    box-sizing: border-box;
+    border: 2px solid beige;
+    border-radius: 14px;
+    background-color: bisque;
+    font-size: 16px;
+    font-style: italic;
+    resize: none;
+}
+/* Button */
+input[type="submit"]{
+    background-color: green;
+    border: none;
+    color: white;
+    text-align: centre;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button[type="button"]{
+    background-color: green;
+    border: none;
+    color: white;
+    text-align: centre;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}

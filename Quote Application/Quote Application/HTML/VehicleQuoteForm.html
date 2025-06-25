@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Quote Application</title>
+    <link rel="stylesheet" href="../CSS/CSSstyle.css" />
+    <script src="../Javascript/VehicleQuoteFormValidation.js"></script>
+</head>
+
+<body>
+    <div class="companyArea">
+        <div class="companyTitle">
+            <h1>Vehicle Insurance Quote Application</h1>
+            <h2>GDC Insurance Limited</h2>
+            <h3 id="minorTitle">HTML Micro Course</h3>
+        </div>
+    </div>
+    <div name="errorBox" id="errorBox"></div>
+    <form action="" method="GET">
+        <div>
+            <strong>Note</strong>
+            <p>
+                It is essential that you answer all questions honestly and to the best
+                of your knowledge. Failure to be honest could result in any policy
+                that you take being cacelled. We also reserve the right to reject any
+                claims associated with policies where the questions were not answered honestly.
+            </p>
+            <p>
+                In order to help you answer the question honestly we provided help text
+                where possible, but we also offer a free phone number where our agents will be
+                glad to assist you in filling out the form. If you have a question call us on
+                <strong>0888 888 8888</strong> for more information.
+            </p>
+        </div>
+        <div>
+            <span>
+                <label for="vehicleRegistrationNumber">
+                    What is the vehicle registration
+                </label>
+            </span>
+        </div>
+        <br>
+        <div>
+            <span>
+                <input type="text" name="vehicleRegistrationNumber" id="vehicleRegistrationNumber"> </span>
+        </div>
+        <br>
+        <div>
+            <span>
+                <label for="ageOfVehicle">
+                    Vehicle Age (in years)
+                </label>
+            </span>
+        </div>
+        <div>
+            <span>
+                <input type="number" name="ageOfVehicle" id="ageOfVehicle" value="">
+            </span>
+        </div>
+        <br>
+        <div>
+            <label for="registeredDate">When was the car first registered</label>
+            <div>
+                <small id="registeredDateHelp">The date must match that on the log book
+                    and registered with DVLC. For a car not registered yet enter the date
+                    insurance should start.
+                </small>
+            </div>
+        </div>
+        <div id="regDate">
+            <input type="date" id="registeredDate" name="registeredDate" min="2018-09-18">
+        </div>
+        <div>
+            <span>
+                <label for="engineCC">Engine Capacity (cc)</label>
+            </span>
+        </div>
+        <br>
+        <div>
+            <span>
+                <select name="engineCC" id="engineCC">
+                    <option value='' Selected>Please Select A Size</option>
+                    <option value='1000'>1000 cc </option>
+                    <option value='1100'>1100 cc </option>
+                    <option value='1600'>1600 cc </option>
+                    <option value='2000'>2000 cc </option>
+                    <option value='2500'>2500 cc </option>
+                    <option value='3000'>3000 cc </option>
+                    <option value='other'>Other cc </option>
+                </select>
+            </span>
+        </div>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Has the vehicle been changed from the
+                manufacturer's standard specification?
+            </legend>
+            <div>
+                <input name="standardSpecification" type="radio" id="standardSpecificationY" value="true">
+                <label for="standardSpecificationY">Yes</label>
+            </div>
+            <div>
+                <input name="standardSpecification" type="radio" id="standardSpecificationN" value="false">
+                <label for="standardSpecificationN">No</label>
+            </div>
+        </fieldset>
+        <br>
+        <h4>Select the insurance extras you require</h4>
+        <div>
+            <input type="checkbox" id="500excess" name="500excess" value="500 Excess">
+            <label for="500excess">Increase policy excess to $500 from $100</label><br>
+            <input type="checkbox" id="breakdowncover" name="breakdowncover" value="Breakdown cover">
+            <label for="breakdowncover">Add breakdown cover</label><br>
+            <input type="checkbox" id="carkeyscover" name="carkeyscover" value="Car Keys cover">
+            <label for="carkeyscover">Insure for lost car keys</label><br><br>
+        </div>
+        <div>
+            <textarea id="subject" name="subject" placeholder="Add any additional information here"></textarea>
+        </div>
+        <h1 name="quoteamount" id="quoteamount"></h1>
+        <input type="submit" value="Submit details">
+        <button type="button" class="contact" id="validateuserdetails" onclick="readFormData()">Validate Form Data
+    </form>
+</body>
+</html>
