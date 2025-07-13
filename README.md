@@ -30,24 +30,16 @@ Open the project in your preferred Java IDE.
 Run the Main.java file to execute the application.
 
 ## 📚 Learning Outcomes
-Practiced object-oriented design with multiple classes.
-
-Reinforced Java fundamentals like method calls, class instantiation, and console output.
-
-Gained experience with GitHub workflows and public repo management.
+- Practiced object-oriented design with multiple classes.
+- Reinforced Java fundamentals like method calls, class instantiation, and console output.
+- Gained experience with GitHub workflows and public repo management.
 
 ## 📈 Future Enhancements
-Add user input to customize quotes dynamically.
-
-Implement random quote selection from a collection.
-
-Expand logic to include validation and error handling.
+- Add user input to customize quotes dynamically.
+- Implement random quote selection from a collection.
+- Expand logic to include validation and error handling.
 
 This training project marks a meaningful step in my journey toward becoming a full-stack developer. Feel free to explore the code and suggest improvements.
-
-🔗 Visit My GitHub Profile to see more of my work.
-
-Feel free to explore the code and suggest improvements. This training exercise marked a meaningful step in my journey toward becoming a full-stack developer.
 
 🔗 [Visit My GitHub Profile](https://github.com/Piranes1) to see more of my work.
 
