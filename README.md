@@ -1,45 +1,51 @@
-# 📝 Quote Application
+# 💬 Quote Application
 
-A simple Java-based console application designed to display a selection of motivational quotes at random.
+A modular Java console application designed to simulate quote generation for auto and property insurance. This project was created as part of my **Java training course at Allstate Northern Ireland**, where I currently work. Allstate offers internal training resources like this one to support hands-on learning and technical development.
 
-## 🎯 Purpose
+## 📦 Project Structure
 
-This project was created as part of my Java training at **Allstate Northern Ireland**, where I currently work. Allstate provides excellent internal training resources and hands-on learning opportunities to support employee development. The Quote Application helped reinforce key programming concepts covered in the course.
+The application is organized into two main components:
 
-## 🚀 Features
+### 🚗 Auto Quotes
+- **Class:** `AutoQuote.java`
+- **Purpose:** Simulates auto insurance quote generation.
+- **Functionality:** Displays a sample auto quote with hardcoded details such as vehicle type, coverage level, and estimated cost.
 
-- Stores quotes in an array or collection
-- Randomly selects and displays a quote each time the program runs
-- Simple and clean console output for easy readability
+### 🏠 Property Quotes
+- **Class:** `PropertyQuote.java`
+- **Purpose:** Demonstrates property insurance quote generation.
+- **Functionality:** Outputs a sample property quote including location, property type, and coverage details.
 
 ## 🛠️ Technologies Used
-
 - Java (Standard Edition)
-- IntelliJ IDEA (development environment)
-- GitHub for version control and collaboration
+- IntelliJ IDEA
+- GitHub for version control
 
-## 📚 Key Learning Outcomes
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Piranes1/Quote-Application.git
+Open the project in your preferred Java IDE.
 
-- Understanding array/list data structures
-- Utilizing Java’s `Random` class
-- Strengthening foundational programming logic and syntax
-- Practicing Git workflow with commits and push operations
+Run the Main.java file to execute the application.
 
-## 📦 Setup Instructions
+## 📚 Learning Outcomes
+Practiced object-oriented design with multiple classes.
 
-To run the project locally:
-1. Clone the repository:  
-   `git clone https://github.com/Piranes1/Quote-Application.git`
-2. Open the project in your preferred Java IDE (e.g., IntelliJ)
-3. Run the `Main.java` file or equivalent entry point
+Reinforced Java fundamentals like method calls, class instantiation, and console output.
+
+Gained experience with GitHub workflows and public repo management.
 
 ## 📈 Future Enhancements
+Add user input to customize quotes dynamically.
 
-- Add functionality to display quotes by category or author
-- Integrate a GUI interface using JavaFX or Swing
-- Read quotes from external files or APIs
+Implement random quote selection from a collection.
 
----
+Expand logic to include validation and error handling.
+
+This training project marks a meaningful step in my journey toward becoming a full-stack developer. Feel free to explore the code and suggest improvements.
+
+🔗 Visit My GitHub Profile to see more of my work.
 
 Feel free to explore the code and suggest improvements. This training exercise marked a meaningful step in my journey toward becoming a full-stack developer.
 
