@@ -25,9 +25,8 @@ The application is organized into two main components:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Piranes1/Quote-Application.git
-Open the project in your preferred Java IDE.
-
-Run the Main.java file to execute the application.
+2. Open the project in your preferred Java IDE.
+3. Run the Main.java file to execute the application.
 
 ## 📚 Learning Outcomes
 - Practiced object-oriented design with multiple classes.
